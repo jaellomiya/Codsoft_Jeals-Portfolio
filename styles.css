@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    text-align: center;
+}
+
+
+h2 {
+font-size: 50px;
+}
+
+.letter{
+    color: #5585b5;
+}
+
+.container {
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+}
+
+li a {
+text-decoration: none;
+color: #000;
+font-size: 20px;
+}
+
+a:hover {
+    color: #5585b5;
+}
+
+h1, h2 {
+    font-size: 50px;
+ text-align: center;
+}
+
+h3{ 
+    font-size: 35px;
+    margin-top: 130px;
+}
+
+.home {
+    margin-top: 45px;
+    width: 90%;
+}
+
+.about-me {
+    margin-top: 110px;
+font-size: 100px;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.typing-text {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #000;
+    animation: typing 2s steps(20, end);
+}
+
+p {
+    margin-top: 200px;
+}
+
+ @keyframes slideInFromLeft {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes slideInFromRight {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+
+    .about-me{
+      animation: slideInFromLeft 1s ease-in-out;
+      color: #5585b5;
+    }
+
+    p {
+      animation: slideInFromRight 1s ease-in-out forwards;
+    }
+
+
