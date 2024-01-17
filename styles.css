@@ -63,6 +63,15 @@ h3{
     width: 90%;
 }
 
+.btn {
+    background-color: #5585b5;
+}
+
+.btn:hover {
+    color: #5585b5;
+    border-color: #5585b5;
+}
+
 .about-me {
     margin-top: 110px;
 font-size: 100px;
@@ -114,4 +123,19 @@ p {
       animation: slideInFromRight 1s ease-in-out forwards;
     }
 
+    .projects {
+        
+    margin-top: 110px;
+font-size: 100px;
+text-align: center;
+color: #5585b5;
+}
 
+.card {
+    margin-top: 110px;
+}
+
+.calculator-app {
+    margin-left: 500px;
+}
+    
